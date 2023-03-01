@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rene.android.reneandroid.Actividades.BuscadorActividad"
+    style="@style/fondoBajo">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:weightSum="1"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:id="@+id/linearLayout">
+
+        <Button
+            android:id="@+id/b_buscador_cancelar"
+            style="@style/boton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+
+            android:onClick="apretoCancelar"
+            android:text="Cancelar" />
+
+        <Button
+            android:id="@+id/b_buscador_aceptar"
+            style="@style/boton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:onClick="apretoAceptar"
+            android:text="Aceptar" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="7dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:id="@+id/linearLayout2">
+
+        <ImageButton
+            android:id="@+id/b_buscador_inicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:background="@android:color/transparent"
+            android:onClick="apretoInicio"
+            app:srcCompat="@android:drawable/stat_notify_more"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="124dp" />
+
+        <ImageButton
+            android:id="@+id/b_buscador_sd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="0.2"
+            android:background="@android:color/transparent"
+            android:onClick="apretoSD"
+            app:srcCompat="@android:drawable/stat_notify_sdcard"
+            tools:layout_editor_absoluteX="91dp"
+            tools:layout_editor_absoluteY="93dp" />
+
+        <EditText
+            android:id="@+id/et_buscador_buscar"
+            android:layout_width="168dp"
+            android:layout_height="35dp"
+            android:layout_weight="0.4"
+            android:ems="10"
+            android:hint="Buscar"
+            android:inputType="textPersonName"
+            android:textSize="8sp"
+            tools:layout_editor_absoluteX="108dp"
+            tools:layout_editor_absoluteY="141dp" />
+
+        <ImageButton
+            android:id="@+id/b_buscador_atras"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:background="@android:color/transparent"
+            android:onClick="apretoAtras"
+            app:srcCompat="@android:drawable/ic_menu_revert"
+            tools:layout_editor_absoluteX="320dp"
+            tools:layout_editor_absoluteY="148dp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/sv_buscador_lista"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <!--<color name="colorAccent">#FF4081</color> -->
+    <color name="colorAccent">#FF80CBC4</color>
+
+
+    <color name="estadoMalo">#ff0901</color>
+    <color name="estadoRegular">#ff8001</color>
+    <color name="estadoBien">#cad102</color>
+    <color name="estadoMuyBien">#01cf05</color>
+    <color name="estaddoExelente">#0127ff</color>
+
+    <color name="Verde">#FF00FF00</color>
+    <color name="verde">#FF00FF00</color>
+    <color name="Azul">#FF0000FF</color>
+    <color name="azulClaro">#FF80CBC4</color>
+    <color name="azul">#0000ff</color>
+    <color name="Morado">#FFC54B8C</color>
+    <color name="Dorado">#6aff00</color>
+    <color name="Rosa">#FFFF00FF</color>
+    <color name="rojo">#FF00</color>
+    <color name="negro">#000000</color>
+    <color name="blanco">#FFFDFDFD</color>
+    <color name="negro_grisaceo">#595656</color>
+    <color name="gris_claro">#8b8989</color>
+    <color name="gris_oscuro">#303030</color>
+    <color name="naranja">#f77700</color>
+
+    <color name="background_material_dark2">#FF303030</color>
+    <color name="accent_material_dark2">#FF80CBC4</color>
+    <color name="primary_dark_material_dark2">#FF000000</color>
+    <color name="primary_material_dark2">#FF212121</color>
+    <color name="primary_text_default_material_light">#f40909</color>
+    <color name="secondary_text_default_material_light2">#8afffe</color>
+    <color name="primary_text_default_material_dark2">#f6efef</color>
+
+    <!--
+     <color name="secondary_text_default_material_light">#8afffefe</color>
+    <color name="primary_text_default_material_dark">#f6efef</color>
+     -->
+
+</resources>

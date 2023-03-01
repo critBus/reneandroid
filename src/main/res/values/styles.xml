@@ -1,0 +1,88 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here.  -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/naranja</item>
+        <!-- <item name="colorAccent">@color/colorAccent</item> -->
+    </style>
+    <style name="boton"  >
+        <item name="android:background">@drawable/estados_de_boton</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat</item>
+
+    </style>
+    <style name="fondoBajo"  >
+        <item name="android:background">@drawable/fondo_bajo</item>
+    </style>
+    <style name="texViewPizarra"  >
+        <item name="android:background">@drawable/fondo_textview_pizarra</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textColor">@color/negro</item>
+
+
+
+
+
+
+
+    </style>
+
+    <style name="renenormal" parent="Theme.AppCompat.Light.DarkActionBar" >
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/naranja</item>
+
+      <!-- @dimen/disabled_alpha_material_light
+        <item name="android:textColorPrimary">@drawable/primary_text_material_light3</item>  -->
+        <item name="android:textColorPrimary">@drawable/primary_text_material_dark4</item>
+        <item name="android:textColorSecondary">@drawable/secondary_text_material_dark4</item>
+    </style>
+
+   <!-- --> <style name="renedarck" parent="Theme.AppCompat.Light.DarkActionBar" >
+
+
+        <item name="android:colorForegroundInverse">@color/blanco</item>
+
+        <item name="colorPrimary">@color/primary_material_dark2</item>
+        <item name="colorPrimaryDark">@color/primary_dark_material_dark2</item>
+        <item name="colorAccent">@color/naranja</item>
+        <item name="android:colorBackground">@color/background_material_dark2</item>
+
+       <item name="android:colorForeground">@color/blanco</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+        <item name="android:statusBarColor">@android:color/black</item>
+        <item name="android:textColorPrimary">@drawable/primary_text_material_dark2</item><!-- @drawable/primary_text_material_dark2 -->
+        <item name="android:textColorPrimaryInverse">@drawable/primary_text_material_light2</item>
+        <item name="android:textColorSecondary">@drawable/secondary_text_material_dark2</item>
+        <item name="android:textColorSecondaryInverse">@drawable/secondary_text_material_light3</item>
+
+        <item name="android:windowBackground">@color/gris_oscuro</item>
+
+
+    </style>
+    <!--
+           copia de seguridad
+
+             <item name="colorPrimary">@color/primary_material_dark2</item>
+          <item name="colorPrimaryDark">@color/primary_dark_material_dark2</item>
+          <item name="colorAccent">@color/accent_material_dark2</item>
+          <item name="android:colorBackground">@color/background_material_dark2</item>
+
+          <item name="android:colorForeground">@color/blanco</item>
+          <item name="android:navigationBarColor">@android:color/black</item>
+          <item name="android:statusBarColor">@android:color/black</item>
+          <item name="android:textColorPrimary">@drawable/primary_text_material_dark2</item>
+          <item name="android:textColorPrimaryInverse">@drawable/primary_text_material_light2</item>
+          <item name="android:textColorSecondary">@drawable/secondary_text_material_dark2</item>
+          <item name="android:textColorSecondaryInverse">@drawable/secondary_text_material_light2</item>
+
+          <item name="android:windowBackground">@color/gris_oscuro</item>
+
+           -->
+
+
+</resources>
